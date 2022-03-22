@@ -7,30 +7,43 @@
     <title>Google Contact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="library/feather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section class="app">
-        <section class="left">
-           <div class="menu">
-                <button class="btn"><i class="feather-menu"></i></button>
-                <div class=""> <div class="logo"></div></div>
-                <div class=""> <p class="text">Contacts</p></div>
-           </div>
-           <div class="create">
-               <div ><img src="img/plus.png" alt="" class="plus"></div>
-               <div><p class="text">Create Contact</p></div>
-           </div>
-        </section>
 
-        <section class="center">
-            <div class="search-area">
-                <i class="feather-search"></i>    <input type="text" placeholder="Search" class="input">
+        <section class="top">
+
+            <div class="left">
+                <div class="">
+                    <button class="btn"> <i class="feather-menu"></i> </button>
+                </div>
+                <div class="img"></div>
+                <div><p class="text">Contacts</p></div>
             </div>
+
+            <div class="center">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i> 
+                    <input type="text" class="input" placeholder="Search">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="right">
+               <div class="icon">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <i class="feather-settings"></i>
+               </div>
+               <div class="icon">
+                    <i class="fa-solid fa-list"></i>
+                    <div class="img"></div>
+               </div>
+            </div>
+
         </section>
 
-        <section class="right"></section>
-
+        <section class="base"></section>
     </section>
-    <script src="app.js"></script>
 </body>
 </html>
