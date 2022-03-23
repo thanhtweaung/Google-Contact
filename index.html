@@ -24,19 +24,29 @@
 
             <div class="center">
                 <div class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i> 
-                    <input type="text" class="input" placeholder="Search">
-                    <i class="fa-solid fa-xmark"></i>
+                    <div class="area">
+                        <button class="btn">
+                            <i class="fa-solid fa-magnifying-glass"></i> 
+                        </button>
+                    </div>
+                   
+                    <input type="text" id="Input" class="input" placeholder="Search">
+
+                    <div class="area">
+                        <button class="btn">
+                            <i id="del"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
 
             <div class="right">
                <div class="icon">
-                    <i class="fa-solid fa-circle-question"></i>
+                <i class="feather-help-circle"></i>
                     <i class="feather-settings"></i>
                </div>
                <div class="icon">
-                    <i class="fa-solid fa-list"></i>
+                <i class="feather-grid"></i>
                     <div class="img"></div>
                </div>
             </div>
@@ -45,5 +55,6 @@
 
         <section class="base"></section>
     </section>
+    <script src="app.js"></script>
 </body>
 </html>
